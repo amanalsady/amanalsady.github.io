@@ -129,8 +129,10 @@ body {
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
   padding: 10px 15px;
   color: #060606;
-  text-align: center;
+  /* text-align: center; */
   text-transform: uppercase;
+    /* position: fixed;  */
+
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
@@ -924,6 +926,7 @@ a:focus {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+          color: gainsboro;
 }
 
 .info_section .info_contact .img-box {
