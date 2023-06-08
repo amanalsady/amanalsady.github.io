@@ -125,6 +125,12 @@ body {
   height: 20px;
   margin-right: 5px;
 }
+.navbar{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
   padding: 10px 15px;
